@@ -1,4 +1,5 @@
 import React from 'react'
+import CartIcon from '../Cart-icon/Cart-icon'
 import {Link, link} from 'react-router-dom'
 import {connect} from 'react-redux'
 import {ReactComponent as Logo} from './Asset/crown.svg'
@@ -24,6 +25,7 @@ import './Header.scss'
                 <Link className='option' to='/signin'>SIGN IN</Link>
                 
             }
+           <CartIcon/>
             
         </div>
     </div>
